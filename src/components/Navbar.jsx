@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/download.jpg";
 
 const Navbar = () => {
@@ -10,13 +11,13 @@ const Navbar = () => {
       <div>
         <ul className="flex">
           <li>
-            <a href="/">Acceuil</a>
+            <Link to="/">Acceuil</Link>
           </li>
           <li>
-            <a href="/service">Service</a>
+            <Link to="/service">Service</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
